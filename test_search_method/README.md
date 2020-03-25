@@ -13,8 +13,8 @@ During debugging, I found that the `search` method succeeds to found the object 
 In order to reproduce the error, clone the files in this folder, run the code in terminal as follows
 
 ```bash
-python start_server_bad.py &
-python start_server_good.py &
-python run_client
+$ python start_server_bad.py &
+$ python start_server_good.py &
+$ python run_client
 ```
 
